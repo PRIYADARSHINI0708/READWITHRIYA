@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    font-family: 'Pattaya',sans-serif;
+    font-style: italic;
+}   
+body{ 
+    
+    font-family: 'Pattaya',sans-serif;
+    font-style: italic;
+}
+#home{
+    background-image: url(./image\ folder/b1.png);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 0;
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cta{
+    display: inline-block;
+    padding: 1px 20px;
+    color: rgb(12, 11, 11);
+    background-color: transparent;
+    border: 2px solid crimson;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 30px;
+    transition: 3s ease ;
+    transition:  background-color, color;
+}
+.cta:hover{
+    color: white;
+    background-color: crimson;
+}
+/*--------nav bar---------*/
+
+.bold{
+      font-size: 30px;
+}
+li{
+    padding: 5px;
+}
+.nav-link{
+    font-size: 20px;
+    color:black;
+    font-weight: bold;
+    border: 2px solid transparent;
+}
+nav .navbar-nav li a{
+    color: rgb(7, 6, 6) !important;
+    }
+.nav-link:hover{
+
+    border-bottom: 2px solid rgb(255, 0, 85);
+    transition: .1s ;
+}
+
+/*-------------home--------------*/
+
+
+span{
+    color: blueviolet;
+}
+
+
+/*---------------about------------------*/
+#about{
+    background-image: url(./image\ folder/orange.png);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 0;
+}
+#about img{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50px;
+}
+.cta1{
+    display: inline-block;
+    padding: 1px 20px;
+    color: rgb(12, 11, 11);
+    background-color: transparent;
+    border: 2px solid crimson;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 30px;
+    transition: 3s ease ;
+    transition:  background-color, color;
+}
+.cta1:hover{
+    color: rgb(238, 222, 222);
+    background-color: rgb(226, 115, 24);
+}
+/*-----------------books----------------------*/
+#books{
+    background-image: url(./image\ folder/purp.png);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 0;
+}
+.cta2{
+    display: inline-block;
+    padding: 0px 20px;
+    color: rgb(12, 11, 11);
+    background-color: transparent;
+    border: 2px solid rgb(187, 0, 78);
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 30px;
+    transition: 3s ease ;
+    transition:  background-color, color;
+}
+.cta2:hover{
+    color: rgb(238, 222, 222);
+    background-color: rgb(233, 13, 134);
+}
+    .cta3{
+        display: inline-block;
+        padding: 20px 20px;
+        color: rgb(12, 11, 11);
+        background-color: transparent;
+        border: 2px solid rgb(187, 0, 78);
+        font-size: 2rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+        margin-top: 30px;
+        transition: 3s ease ;
+        transition:  background-color, color;
+    }
+    .cta3:hover{
+        color: rgb(238, 222, 222);
+        background-color: rgb(233, 13, 134);
+    }
+
+    /*----------------------------feed--------------------------*/
+    #feedback{
+        background-image: url(./image\ folder/pinkz.png);
+        background-size: cover;
+        background-position: top center;
+        position: relative;
+        z-index: 0;
+    }
+    #feedback img{
+        width: 25rem;
+        height: 25rem;
+        border-radius: 50px;
+    }
+        
+    
